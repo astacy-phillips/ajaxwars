@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.Header {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+/* write your parent styles in here for your App.js */
+
+.char-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.char {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  list-style-type: none;
+  border: 0;
+  border-radius: 2px;
+  width: 40%;
+  margin: 5px .5rem;
+  padding: .25rem;
+}
+
+.char h1 {
+  font-size: 1.2rem;
+  margin: 8px;
+}
